@@ -9,20 +9,9 @@
 // http://www.devexpress.com/example=E2190
 
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using DevExpress.Xpf.Docking.VisualElements;
-using DevExpress.Xpf.Docking;
 
 namespace DocumentGroup_MDI_Ex {
     /// <summary>
@@ -31,29 +20,6 @@ namespace DocumentGroup_MDI_Ex {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
-            MDIDocument d = new MDIDocument();
-            DocumentPanel dp = new DocumentPanel();
-            LayoutPanel lp = new LayoutPanel();
-        }
-
-        private void PART_CloseButton_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void PART_Button_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Button_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void border_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-
         }
     }
 }
